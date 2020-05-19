@@ -87,11 +87,11 @@ export default function(hljs) {
                     '\\b(' +
                     /* collection functions */
                     'assert|base64_encode|base64_decode|bool|bytes|' +
-                    'deep|del_type|err|float|has_type|if|int|isarray|' +
-                    'isascii|isbool|isbytes|iserr|isfloat|isinf|isint|' +
+                    'deep|del_enum|del_type|enum|enum_info|enums_info|err|float|has_enum|has_type|if|int|isarray|' +
+                    'isascii|isbool|isbytes|isenum|iserr|isfloat|isinf|isint|' +
                     'islist|isnan|isnil|israw|isset|isstr|isthing|istuple|' +
-                    'isutf8|list|mod_type|new|new_type|now|raise|rand|range|' +
-                    'randint|refs|return|set|set_type|str|thing|try|type|' +
+                    'isutf8|list|mod_enum|mod_type|new|new_type|now|raise|rand|range|' +
+                    'randint|refs|return|set|set_enum|set_type|str|thing|try|type|' +
                     'type_count|type_info|types_info|wse|' +
                     /* node functions */
                     'backup_info|backups_info|counters|del_backup|' +
@@ -120,9 +120,9 @@ export default function(hljs) {
                 className: 'function',
                 begin: new RegExp(
                     '\\.\\s*(len|call|choice|def|doc|code|msg|each|every|extend|filter|find|' +
-                    'findindex|indexof|map|pop|push|remove|sort|splice|' +
+                    'findindex|indexof|map|name|pop|push|remove|sort|splice|' +
                     'add|has|contains|endswith|lower|startswith|test|upper|' +
-                    'del|get|id|keys|reduce|set|some|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()'
+                    'del|get|id|keys|reduce|set|some|value|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()'
                 ),
             },
             {
