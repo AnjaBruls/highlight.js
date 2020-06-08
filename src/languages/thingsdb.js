@@ -119,7 +119,7 @@ export default function(hljs) {
             {
                 className: 'function',
                 begin: new RegExp(
-                    '\\.\\s*(len|call|choice|def|doc|code|msg|each|every|extend|filter|find|' +
+                    '\\.\\s*(assign|len|call|choice|def|doc|emit|code|msg|each|every|extend|filter|find|' +
                     'findindex|indexof|map|name|pop|push|remove|sort|splice|' +
                     'add|has|contains|endswith|lower|startswith|test|upper|' +
                     'del|get|id|keys|reduce|set|some|value|values|watch|wrap|unwatch|unwrap)\\s*(?=\\()'
