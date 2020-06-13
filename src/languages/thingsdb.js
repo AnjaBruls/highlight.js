@@ -92,7 +92,7 @@ export default function(hljs) {
                     'islist|isnan|isnil|israw|isset|isstr|isthing|istuple|' +
                     'isutf8|list|mod_enum|mod_type|new|new_type|now|raise|rand|range|' +
                     'randint|refs|return|set|set_enum|set_type|str|thing|try|type|' +
-                    'type_count|type_info|types_info|wse|' +
+                    'type_assert|type_count|type_info|types_info|wse|' +
                     /* node functions */
                     'backup_info|backups_info|counters|del_backup|' +
                     'has_backup|new_backup|node_info|nodes_info|' +
