@@ -87,7 +87,7 @@ export default function(hljs) {
                     '\\b(' +
                     /* collection functions */
                     'assert|base64_encode|base64_decode|bool|bytes|' +
-                    'deep|del_enum|del_type|enum|enum_info|enums_info|err|float|has_enum|has_type|if|int|isarray|' +
+                    'deep|del_enum|del_type|enum|enum_info|enums_info|err|event_id|float|has_enum|has_type|if|int|isarray|' +
                     'isascii|isbool|isbytes|isenum|iserr|isfloat|isinf|isint|' +
                     'islist|isnan|isnil|israw|isset|isstr|isthing|istuple|' +
                     'isutf8|list|mod_enum|mod_type|new|new_type|now|raise|rand|range|' +
