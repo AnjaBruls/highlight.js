@@ -91,7 +91,7 @@ export default function(hljs) {
                     'isascii|isbool|isbytes|isenum|iserr|isfloat|isinf|isint|' +
                     'islist|isnan|isnil|israw|isset|isstr|isthing|istuple|' +
                     'isutf8|list|mod_enum|mod_type|new|new_type|now|raise|rand|range|' +
-                    'randint|refs|return|set|set_enum|set_type|str|thing|try|type|' +
+                    'randint|refs|rename_enum|rename_type|return|set|set_enum|set_type|str|thing|try|type|' +
                     'type_assert|type_count|type_info|types_info|wse|' +
                     /* node functions */
                     'backup_info|backups_info|counters|del_backup|' +
@@ -105,7 +105,7 @@ export default function(hljs) {
                     'rename_collection|rename_user|restore|revoke|set_password|' +
                     'user_info|users_info|' +
                     /* procedure functions */
-                    'del_procedure|has_procedure|new_procedure|' +
+                    'del_procedure|has_procedure|new_procedure|rename_procedure|' +
                     'procedure_doc|procedure_info|procedures_info|run|' +
                     /* error functions */
                     'assert_err|auth_err|bad_data_err|forbidden_err|' +
