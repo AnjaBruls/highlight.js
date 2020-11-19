@@ -91,7 +91,7 @@ export default function(hljs) {
                     'is_ascii|is_bool|is_bytes|is_closure|is_enum|is_err|is_float|is_inf|is_int|' +
                     'is_list|is_nan|is_nil|is_raw|is_set|is_str|is_thing|is_tuple|' +
                     'is_utf8|list|mod_enum|mod_type|new|new_type|now|raise|rand|range|' +
-                    'randint|refs|rename_enum|rename_type|return|set|set_enum|set_type|str|thing|try|type|' +
+                    'randint|randstr|refs|rename_enum|rename_type|return|set|set_enum|set_type|str|thing|try|type|' +
                     'type_assert|type_count|type_info|types_info|wse|' +
                     /* node functions */
                     'backup_info|backups_info|counters|del_backup|' +
@@ -119,7 +119,7 @@ export default function(hljs) {
             {
                 className: 'function',
                 begin: new RegExp(
-                    '\\.\\s*(assign|len|call|choice|def|doc|emit|code|msg|each|every|extend|filter|find|' +
+                    '\\.\\s*(assign|len|call|choice|join|def|doc|emit|code|msg|each|every|extend|filter|find|' +
                     'find_index|index_of|map|name|pop|push|remove|replace|reverse|split|sort|splice|' +
                     'add|has|contains|ends_with|lower|starts_with|test|trim|trim_left|trim_right|upper|' +
                     'del|get|id|keys|reduce|set|shift|some|value|values|watch|wrap|unshift|unwatch|unwrap)\\s*(?=\\()'
