@@ -124,7 +124,7 @@ export default function(hljs) {
                     'find_index|index_of|map|name|pop|push|remove|replace|reverse|split|sort|splice|' +
                     'add|has|contains|ends_with|lower|starts_with|test|trim|trim_left|trim_right|upper|' +
                     'del|get|id|keys|reduce|set|shift|some|value|values|watch|wrap|unshift|unwatch|unwrap|' +
-                    'extract|then|else|format|move|to|week|weekday|yday|zone)\\s*(?=\\()'
+                    'extract|equals|then|else|format|move|to|week|weekday|yday|zone)\\s*(?=\\()'
                 ),
             },
             {
