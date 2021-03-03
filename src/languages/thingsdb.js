@@ -108,6 +108,9 @@ export default function(hljs) {
                     /* procedure functions */
                     'del_procedure|has_procedure|new_procedure|rename_procedure|' +
                     'procedure_doc|procedure_info|procedures_info|run|' +
+                    /* timer functions */
+                    'del_timer|has_timer|new_timer|set_timer_args|' +
+                    'timer_args|timer_info|timers_info|' +
                     /* error functions */
                     'assert_err|auth_err|bad_data_err|cancelled_err|forbidden_err|' +
                     'lookup_err|max_quota_err|node_err|num_arguments_err|' +
