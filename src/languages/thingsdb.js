@@ -124,7 +124,7 @@ export default function(hljs) {
                 className: 'function',
                 begin: new RegExp(
                     '\\.\\s*(assign|len|load|call|choice|copy|dup|join|def|doc|emit|code|msg|each|every|extend|filter|find|' +
-                    'find_index|index_of|map|name|pop|push|remove|replace|reverse|split|sort|splice|' +
+                    'find_index|index_of|map|name|pop|push|remove|replace|reverse|split|sort|splice|unique|is_unique|' +
                     'add|has|contains|ends_with|lower|starts_with|test|trim|trim_left|trim_right|upper|' +
                     'del|get|id|keys|reduce|set|shift|some|value|values|watch|wrap|unshift|unwatch|unwrap|' +
                     'extract|first|last|equals|then|else|format|move|to|week|weekday|yday|zone)\\s*(?=\\()'
