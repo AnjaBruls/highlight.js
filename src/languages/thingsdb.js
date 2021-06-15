@@ -104,7 +104,7 @@ export default function(hljs) {
                     'new_collection|new_node|new_token|new_user|' +
                     'rename_collection|rename_user|restore|revoke|set_password|set_time_zone|' +
                     'time_zones_info|user_info|users_info|' +
-                    'has_module|del_module|module_info|modules_info|new_module|rename_module|set_module_conf|set_module_scope|' +
+                    'has_module|del_module|module_info|modules_info|new_module|deploy_module|rename_module|set_module_conf|set_module_scope|' +
                     /* procedure functions */
                     'del_procedure|has_procedure|new_procedure|rename_procedure|' +
                     'procedure_doc|procedure_info|procedures_info|run|' +
