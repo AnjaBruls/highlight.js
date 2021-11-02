@@ -122,7 +122,7 @@ export default function(hljs) {
                 begin: new RegExp(
                     '\\.\\s*(assign|args|set_args|len|load|call|choice|closure|set_closure|copy|dup|join|doc|emit|code|msg|each|every|extend|extend_unique|filter|find|' +
                     'find_index|index_of|map|name|owner|set_owner|pop|push|remove|replace|reverse|split|sort|splice|unique|is_unique|' +
-                    'at|again_in|again_at|cancel|add|clear|has|contains|ends_with|lower|starts_with|test|trim|trim_left|trim_right|upper|' +
+                    'at|again_in|again_at|cancel|add|err|clear|has|contains|ends_with|lower|starts_with|test|trim|trim_left|trim_right|upper|' +
                     'del|to_type|get|id|keys|reduce|set|shift|some|value|values|wrap|unshift|unwrap|' +
                     'extract|first|last|equals|then|else|format|move|to|week|weekday|yday|zone)\\s*(?=\\()'
                 ),
